@@ -1,4 +1,4 @@
-make_minimum_required (VERSION 2.8.8 FATAL_ERROR)
+cmake_minimum_required(VERSION 2.8.8)
 
 project (VL53L0X_linux)
 add_library(vl53l0x SHARED I2Cdev.cpp VL53L0X.cpp)
